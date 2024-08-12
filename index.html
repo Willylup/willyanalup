@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DORAMAS DAY</title>
+    <link rel="stylesheet" href="willy.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WEB PAGE INTERATIVA DORAMAS DAY</h1>
+        </header>
+        <section class="photo">
+            <h2>Foto de Doramas</h2>
+            <img src="dorameira.jpg" alt="Foto de Doramas" width="900" height="900">
+        </section>
+        <section class="music">
+            <h2>Ouça agora as melhores Ost's</h2>
+            <audio controls>
+                <source src="melhores ost.m4a" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </section>
+        <section class="list">
+            <h2>Top 5 Doramas</h2>
+            <ol>
+                <li>Dorama 1º Descendants of the Sun (Descendentes do Sol) - 2016</li>
+                <li>Dorama 2º Boys over Flowers (Rapazes Antes de Flores) - 2009</li>
+                <li>Dorama 3º Pousando No Amor - 2019</li>
+                <li>Dorama 4º What's Wrong with Secretary Kim? - 2018</li>
+                <li>Dorama 5º Itaewon Class - 2020</li>
+            </ol>
+            <button id="changeFontButton">Mudar Fonte</button>
+        </section>
+        <section class="interactions">
+            <button id="magicButton">Mudar Cor</button>
+            <button id="heartButton">Corações</button>
+            <div id="hearts" class="hearts"></div>
+            <h2>Esse será o seu estado após assistir a um dorama.</h2>
+            <img src="gifdore.gif" alt="gif de Doramas" width="900" height="900">
+        </section>
+    </div>
+    <script src="controller.Js"></script>
+</body>
+</html>

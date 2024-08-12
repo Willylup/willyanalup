@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photo {
+    background-color: #ffc1e3;
+}
+
+.photo h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.music {
+    background-color: #ffebcd;
+}
+
+.music h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.list {
+    background-color: #e0ffff;
+}
+
+.list h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+ol {
+    list-style-position: inside;
+    font-size: 1.2em;
+    color: #555;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.interactions {
+    background-color: #d8bfd8;
+}
+
+.interactions h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.hearts {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    font-size: 2em;
+    color: red;
+    animation: heart-float 5s ease-in-out;
+}
+
+@keyframes heart-float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-300px);
+    }
+}
